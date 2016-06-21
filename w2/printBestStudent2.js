@@ -21,18 +21,11 @@ IT'S ALIVVVVVE
 function printBestStudent(sts) {
   
   // Attach each student's name to each element in their grades
-  students3.map(
-    student => 
-      student.grades.map(grades =>
-           ({
-             id: grades.id, 
-             score: grades.score, 
-             name: student.name // Now we have their name in their grades.
-           })
-      ) 
-  )
-  // Get an array of just test score objects
-  .reduce((p, c) => p.concat(c), [])
+  // And get an array of just test score objects
+  students3.reduce((previous, current) =>
+    previous.concat(
+      current.grades.map(x => (x.name = current.name, x))
+  ), [])
   // Sort/group them by id
   .sort((a, b) => 
         (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
