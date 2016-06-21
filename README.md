@@ -24,3 +24,4 @@ Students should be able to implement these data structures by week 3:
 * Stack
 * Queue
 * Binary Search Tree
+* Infernal mode: Circularly-Linked List (aka Doubly-Linked List)
