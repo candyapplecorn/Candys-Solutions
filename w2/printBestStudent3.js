@@ -13,8 +13,7 @@ function printBestGrade(students){
   }
 
   for (var cg of allgrades)
-    if (bestgrades[cg.id] === undefined || 
-        cg.score > bestgrades[cg.id].score)
+    if (bestgrades[cg.id] === undefined || cg.score > bestgrades[cg.id].score)
       bestgrades[cg.id] = cg;
 
   for (var entry of bestgrades)
