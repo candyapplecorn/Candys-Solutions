@@ -12,10 +12,10 @@ function printBestGrade(students){
     allgrades = allgrades.concat(std.grades); 
   }
 
-  for (var index in allgrades)
-    if (bestgrades[allgrades[index].id] === undefined || 
-        allgrades[index].score > bestgrades[allgrades[index].id].score)
-      bestgrades[allgrades[index].id] = allgrades[index];
+  for (var cg of allgrades)
+    if (bestgrades[cg.id] === undefined || 
+        cg.score > bestgrades[cg.id].score)
+      bestgrades[cg.id] = cg;
 
   for (var entry of bestgrades)
     console.log("Test " + entry.id + ": " + entry.name);
