@@ -8,7 +8,7 @@ I'm far from the best programmer around, and look forward to seeing better solut
 ## Extra Problems
 For the students who want more than the bonus problems, here you go. For any of these terms, do some google-fu to figure out what the term is, and then implement it in Javascript. Try not to look at solutions before creating your own! 
 
-###Weeks 2 & 3
+### Weeks 2 & 3
 _Students should be educated enough to attempt these problems by, or by the end of, week2._
 
 * Binary Search
@@ -18,7 +18,7 @@ _Students should be educated enough to attempt these problems by, or by the end 
 * Ultra Mega Hard Mode: Quicksort
 * Ultra Mega Super Giga Hard Mode: Quicksort __with optimizations__
 
-###Weekless
+### Weekless
 Students should be able to implement these data structures by week 3:
 * Linked List
 * Stack
